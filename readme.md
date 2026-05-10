@@ -405,7 +405,6 @@ curl -X POST http://localhost:8000/api/task \
 2. **Build** the project (if needed)
 3. **Run** `npm start`
 
-See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed deployment guides.
 
 ---
 
@@ -421,7 +420,7 @@ npm test
 
 ## 📝 Contributing
 
-Contributions are welcome! Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+Contributions are welcome!
 
 ---
 
