@@ -1,0 +1,25 @@
+{
+  "name": "proj-management",
+  "version": "1.0.0",
+  "description": "A project management api - backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": " nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.6.1",
+    "morgan": "^1.10.1",
+    "nodemon": "^3.1.14",
+    "prettier": "^3.8.3",
+    "zod": "^4.4.3"
+  }
+}
