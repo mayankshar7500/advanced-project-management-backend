@@ -18,4 +18,8 @@ app.use("/api/projects", projectRoutes)
 import taskRoutes from "./routes/task.routes.js"
 app.use("/api/task", taskRoutes)
 
+app.get("/", (req, res) => {
+    res.send("Project Management API Running");
+});
+
 export default app;
